@@ -56,7 +56,7 @@ p {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #363062;
 }
 
@@ -92,6 +92,15 @@ a:hover {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+.fa:hover {
+  text-decoration: none;
+}
+
+.fa-brands:hover {
+  color: #827397 !important;
+  background-color: white;
 }
 
 .icon-larger {
