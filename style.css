@@ -4,7 +4,7 @@
 
 .container {
   margin: 0 auto;
-  width: 700px;
+  width: 900px;
 }
 
 @media (max-width: 960px) {
@@ -66,6 +66,10 @@ a:hover {
 
 .img-circle {
   border-radius: 50%;
+}
+
+.card {
+  width: 100%;
 }
 
 .card-white {
